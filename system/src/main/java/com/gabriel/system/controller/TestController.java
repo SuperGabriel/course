@@ -1,7 +1,7 @@
 package com.gabriel.system.controller;
 
-import com.gabriel.system.domain.Test;
-import com.gabriel.system.service.TestService;
+import com.gabriel.server.domain.Test;
+import com.gabriel.server.service.TestService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

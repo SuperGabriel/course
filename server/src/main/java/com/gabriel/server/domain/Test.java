@@ -1,4 +1,4 @@
-package com.gabriel.system.domain;
+package com.gabriel.server.domain;
 
 /**
  * @author Gabriel

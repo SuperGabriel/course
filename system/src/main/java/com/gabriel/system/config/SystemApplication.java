@@ -1,4 +1,4 @@
-package com.gabriel.system;
+package com.gabriel.system.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
 /**
@@ -13,7 +14,8 @@ import org.springframework.core.env.Environment;
  */
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan("com.gabriel.system.mapper")
+@ComponentScan("com.gabriel")
+@MapperScan("com.gabriel.server.mapper")
 public class SystemApplication {
     private static final Logger LOGGER = LoggerFactory.getLogger(SystemApplication.class);
 

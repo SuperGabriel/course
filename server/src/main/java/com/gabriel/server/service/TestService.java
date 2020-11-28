@@ -1,7 +1,7 @@
-package com.gabriel.system.service;
+package com.gabriel.server.service;
 
-import com.gabriel.system.domain.Test;
-import com.gabriel.system.mapper.TestMapper;
+import com.gabriel.server.domain.Test;
+import com.gabriel.server.mapper.TestMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
