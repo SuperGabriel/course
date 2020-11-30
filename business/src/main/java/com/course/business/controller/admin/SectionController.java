@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
+/**
+ * @author Gabriel
+ */
 @RestController
 @RequestMapping("/admin/section")
 public class SectionController {

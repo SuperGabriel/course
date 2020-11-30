@@ -9,7 +9,9 @@ import org.dom4j.io.SAXReader;
 
 import java.io.File;
 import java.util.*;
-
+/**
+ * @author Gabriel
+ */
 public class ServerGenerator {
     static String MODULE = "business";
     static String toDtoPath = "server\\src\\main\\java\\com\\course\\server\\dto\\";

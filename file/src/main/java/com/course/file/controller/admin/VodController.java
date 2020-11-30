@@ -23,6 +23,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
 
+/**
+ * @author Gabriel
+ */
 @RestController
 @RequestMapping("/admin")
 public class VodController {

@@ -21,6 +21,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author Gabriel
+ */
 @RestController("webMemberController")
 @RequestMapping("/web/member")
 public class MemberController {

@@ -7,7 +7,9 @@ import java.io.OutputStreamWriter;
 import java.lang.reflect.Method;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+/**
+ * @author Gabriel
+ */
 public class EnumGenerator {
 //    static String path = "admin\\public\\static\\js\\enums.js";
     static String path = "web\\public\\static\\js\\enums.js";

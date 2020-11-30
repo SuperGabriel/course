@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * @author Gabriel
+ */
 @RestController
 @RequestMapping("/admin/teacher")
 public class TeacherController {

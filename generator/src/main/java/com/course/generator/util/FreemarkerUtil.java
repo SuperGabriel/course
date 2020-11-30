@@ -10,7 +10,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
-
+/**
+ * @author Gabriel
+ */
 public class FreemarkerUtil {
 
     static String ftlPath = "generator\\src\\main\\java\\com\\course\\generator\\ftl\\";

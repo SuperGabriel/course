@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-
+/**
+ * @author Gabriel
+ */
 @RestController("webSmsController")
 @RequestMapping("/web/sms")
 public class SmsController {

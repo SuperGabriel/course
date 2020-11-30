@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * @author Gabriel
+ */
 @RestController("webCategoryController")
 @RequestMapping("/web/category")
 public class CategoryController {

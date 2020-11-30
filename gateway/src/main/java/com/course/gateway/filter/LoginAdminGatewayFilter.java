@@ -16,6 +16,9 @@ import reactor.core.publisher.Mono;
 
 import javax.annotation.Resource;
 
+/**
+ * @author Gabriel
+ */
 @Component
 public class LoginAdminGatewayFilter implements GatewayFilter, Ordered {
 

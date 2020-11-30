@@ -6,7 +6,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.Properties;
-
+/**
+ * @author Gabriel
+ */
 @Configuration
 public class KaptchaConfig {
     @Bean
@@ -48,4 +50,4 @@ public class KaptchaConfig {
         defaultKaptcha.setConfig(config);
         return defaultKaptcha;
     }
-} 
+}

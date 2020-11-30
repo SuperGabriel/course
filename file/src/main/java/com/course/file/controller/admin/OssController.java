@@ -22,6 +22,9 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.annotation.Resource;
 import java.io.ByteArrayInputStream;
 
+/**
+ * @author Gabriel
+ */
 @RestController
 @RequestMapping("/admin")
 public class OssController {

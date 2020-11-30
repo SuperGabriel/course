@@ -9,6 +9,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
+/**
+ * @author Gabriel
+ */
 @SpringBootApplication
 @EnableEurekaClient
 @ComponentScan("com.course")

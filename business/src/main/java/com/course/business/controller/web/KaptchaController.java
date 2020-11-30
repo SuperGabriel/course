@@ -18,6 +18,9 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author Gabriel
+ */
 @RestController
 @RequestMapping("/web/kaptcha")
 public class KaptchaController {

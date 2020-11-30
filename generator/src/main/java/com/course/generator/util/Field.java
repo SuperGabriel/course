@@ -1,5 +1,7 @@
 package com.course.generator.util;
-
+/**
+ * @author Gabriel
+ */
 public class Field {
     private String name; // 字段名：course_id
     private String nameHump; // 字段名小驼峰：courseId

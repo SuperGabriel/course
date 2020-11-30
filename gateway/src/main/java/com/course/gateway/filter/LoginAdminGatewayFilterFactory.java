@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
+/**
+ * @author Gabriel
+ */
 @Component
 public class LoginAdminGatewayFilterFactory extends AbstractGatewayFilterFactory<Object> {
 

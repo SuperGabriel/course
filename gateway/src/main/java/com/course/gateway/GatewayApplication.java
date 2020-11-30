@@ -12,6 +12,9 @@ import org.springframework.web.cors.reactive.CorsWebFilter;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 import org.springframework.web.util.pattern.PathPatternParser;
 
+/**
+ * @author Gabriel
+ */
 @SpringBootApplication
 @EnableEurekaClient
 public class GatewayApplication {
