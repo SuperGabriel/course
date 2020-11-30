@@ -124,6 +124,11 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
 			<!-- mybatis generator 自动生成代码插件 -->
 			<plugin>
 				<groupId>org.mybatis.generator</groupId>
