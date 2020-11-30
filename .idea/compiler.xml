@@ -8,7 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="server" />
         <module name="system" />
+        <module name="file" />
+        <module name="business" />
         <module name="eureka" />
+        <module name="generator" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
@@ -18,10 +21,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business" options="-parameters" />
       <module name="course" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eurkea" options="-parameters" />
+      <module name="file" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="generator" options="-parameters" />
       <module name="server" options="-parameters" />
       <module name="system" options="-parameters" />
     </option>
