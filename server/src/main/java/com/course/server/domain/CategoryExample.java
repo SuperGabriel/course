@@ -3,6 +3,9 @@ package com.course.server.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Gabriel
+ */
 public class CategoryExample {
     protected String orderByClause;
 

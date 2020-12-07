@@ -1,5 +1,8 @@
 package com.course.server.domain;
 
+/**
+ * @author Gabriel
+ */
 public class Category {
     private String id;
 
